@@ -1,0 +1,6 @@
+file "$(MOTOR)/db/motor.db"
+{
+pattern
+{P,      N,     M,     DTYP,       C, S, DESC,          EGU,    DIR,	VELO, VBAS, ACCL, BDST, BVEL, BACC, MRES, PREC, DHLM, DLLM, INIT}
+{kohzu:, 1, "m$(N)", "SC-800",     0, 0, "motor $(N)", degrees, Pos, 10,    0.,   1.,   0,    1,    .2,   1e-3, 3,    100,  -100, ""}
+}

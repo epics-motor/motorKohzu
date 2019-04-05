@@ -21,12 +21,13 @@ kohzu_DBD += base.dbd
 # Include dbd files from all support applications:
 #ifdef ASYN
 kohzu_DBD += asyn.dbd
+kohzu_DBD += drvAsynSerialPort.dbd
 #endif
 kohzu_DBD += motorSupport.dbd
-kohzu_DBD += devKohzu.dbd
+kohzu_DBD += devKohzuMotor.dbd
 
 # Add all the support libraries needed by this IOC
-kohzu_LIBS += kohzu
+kohzu_LIBS += KohzuMotor
 kohzu_LIBS += motor
 #ifdef ASYN
 kohzu_LIBS += asyn
