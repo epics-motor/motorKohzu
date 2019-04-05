@@ -1,0 +1,4 @@
+MOTOR=
+-include $(MOTOR)/configure/RELEASE
+# path to motorKohzu is needed to build the IOC inside motorKohzu, but outside motor
+MOTOR_KOHZU=

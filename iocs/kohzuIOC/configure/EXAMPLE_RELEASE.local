@@ -1,0 +1,6 @@
+# Use the following lines if motorKohzu was built inside motor
+MOTOR=
+-include $(MOTOR)/configure/RELEASE
+# Use the following lines if motorKohzu was built outside motor
+#!MOTOR_KOHZU=
+#!-include $(MOTOR_KOHZU)/configure/RELEASE.local
