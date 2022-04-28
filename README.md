@@ -2,7 +2,8 @@
 EPICS motor drivers for the following [Kohzu](https://www.kohzuprecision.com) controllers:<br>
 SC-200, SC-400, SC-800 stepper motor controllers
 
-[![Build Status](https://travis-ci.org/epics-motor/motorKohzu.png)](https://travis-ci.org/epics-motor/motorKohzu)
+[![Build Status](https://github.com/epics-motor/motorKohzu/actions/workflows/ci-scripts-build.yml/badge.svg)](https://github.com/epics-motor/motorKohzu/actions/workflows/ci-scripts-build.yml)
+<!--[![Build Status](https://travis-ci.org/epics-motor/motorKohzu.png)](https://travis-ci.org/epics-motor/motorKohzu)-->
 
 motorKohzu is a submodule of [motor](https://github.com/epics-modules/motor).  When motorKohzu is built in the ``motor/modules`` directory, no manual configuration is needed.
 
