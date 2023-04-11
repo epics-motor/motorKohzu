@@ -1,5 +1,23 @@
 # motorKohzu Releases
 
+## __R1-0-2 (2023-04-11)__
+R1-0-2 is a release based on the master branch.
+
+### Changes since R1-0-1
+
+#### New features
+* None
+
+#### Modifications to existing features
+* None
+
+#### Bug fixes
+* None
+
+#### Continuous integration
+* Added ci-scripts (v3.0.1)
+* Configured to use Github Actions for CI
+
 ## __R1-0-1 (2020-05-11)__
 R1-0-1 is a release based on the master branch.  
 
